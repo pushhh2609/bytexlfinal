@@ -94,7 +94,3 @@ app.get('*', (_req, res) => {
 app.listen(PORT, () => {
   console.log(`[server] Mock full-stack app on http://localhost:${PORT}`)
 })
-
-app.listen(PORT, () => {
-  console.log(`[server] Mock API listening on http://localhost:${PORT}`)
-})
